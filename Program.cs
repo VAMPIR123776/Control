@@ -20,7 +20,6 @@ void FillArray(string[] tempArray, string[] resultArray)
             }
         }
     }
-    PrintArray(resultArray);
 }
 
 void PrintArray(string[] resultArray)
@@ -35,4 +34,5 @@ string[] array = { "hello", "2", "world", ":-)" };
 string[] resultArray = new string[array.Length];
 
 FillArray(array, resultArray);
+PrintArray(resultArray);
 Console.WriteLine();
